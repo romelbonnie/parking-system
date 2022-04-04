@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  padding: 1px;
+  color: #fff;
 }
 
 .App-logo {
@@ -35,4 +39,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.appContainer {
+  margin: 50px;
+  /* border-width: 3px;
+  border-color: #fff;
+  border-style: solid; */
+}
+.parkingLot {
+  position: relative;
+}
+
+.roadHorizontal {
+  height: 60px;
+  background-color: aqua;
+}
+.roadVertical {
+  width: 70px;
+  background-color: aqua;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+}
+
+.colParkingContainer {
+  flex: 1;
+  /* background-color: black; */
+  color: #fff;
+  padding: 5px;
+}
+.rowParkingContainer {
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.parkingRow {
+  display: flex;
+  flex: 3;
+  /* background-color: brown; */
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+
+.entryPoint {
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+.arrowImg {
+  width: 50px;
+  height: 50px;
+}
+
+#EP1 {
+  position: absolute;
+  top: 0;
+}
+#EP1Arrow {
+  transform: rotate(90deg);
+}
+
+#EP3 {
+  position: absolute;
+  bottom: 0;
+  left: 52%;
+}
+
+#EP2 {
+  position: absolute;
+  top: 0;
+  left: 52%;
+}
+#EP2Arrow {
+  transform: rotate(180deg);
 }

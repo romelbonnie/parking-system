@@ -1,0 +1,24 @@
+.rowSlot {
+  background-color: #fff;
+  height: 70px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: black;
+  padding: 5px;
+}
+.colSlot {
+  flex: 1;
+  background-color: #fff;
+  height: 100px;
+  margin-right: 3px;
+  margin-left: 3px;
+  color: black;
+  padding: 5px;
+}
+
+.slotName {
+  font-weight: bold;
+}
+.vehicleData {
+  font-size: 12px;
+}
